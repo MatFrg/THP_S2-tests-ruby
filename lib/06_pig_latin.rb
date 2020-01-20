@@ -20,4 +20,3 @@ def translate(str)
     newstr = str.split.map {|str| word(str)}.join(' ')
 end
 
-translate("apple")
